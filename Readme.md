@@ -5,7 +5,7 @@ Tells you if the value is empty. Empty values are '', undefined, null, [], {}, a
 ## Installation
 
 ```
-npm install is-empty
+npm install atropa-is-empty
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install is-empty
 In node:
 
 ```
-var isEmpty = require('is-empty');
+var isEmpty = require('atropa-is-empty');
 console.log(isEmpty('')); // logs true
 console.log(isEmpty('x')); // logs false
 ```
