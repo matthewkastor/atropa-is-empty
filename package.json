@@ -1,0 +1,27 @@
+{
+  "name": "atropa-is-empty",
+  "version": "0.1.0",
+  "description": "Tells you if the value is empty. Empty values are '', undefined, null, [], {}, and objects with no enumerable properties.",
+  "main": "./src/is-empty.js",
+  "directories": {
+    "lib": "src"
+  },
+  "devDependencies": {
+    "browserify": ">=2.29.1",
+    "jasmine-node": ">=1.11.0"
+  },
+  "scripts": {
+    "test": "jasmine-node specs/",
+    "buildBrowserModule": "node dev/browserify.js"
+  },
+  "repository": "https://github.com/matthewkastor/is-empty.git",
+  "keywords": [
+    "is-empty"
+  ],
+  "author": {
+    "name": "Matthew Kastor",
+    "email": "matthewkastor@gmail.com",
+    "url": "https://plus.google.com/100898583798552211130"
+  },
+  "license": "gpl-3.0"
+}
